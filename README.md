@@ -15,7 +15,7 @@ Unofficial desktop client for Perplexity AI on Linux. Built with Electron to pro
 
 ## Installationt
 
-Download the latest release from the [Releases page]([https://github.com/fconidi/P-AI-Desktop/releases)).
+Download the latest release from the releases section https://github.com/fconidi/P-AI-Desktop/releases.
 
 ### Debian/Ubuntu
 ```
