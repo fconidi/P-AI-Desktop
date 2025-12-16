@@ -39,8 +39,8 @@ chmod +x P-AI-Desktop-1.0.0.AppImage
 ### Build Instructions
 ```
 
-git clone https://github.com/yourusername/p-ai-desktop
-cd p-ai-desktop
+git clone https://github.com/fconidi/P-AI-Desktop.git
+cd P-AI-Desktop
 npm install
 npm run build
 
@@ -81,6 +81,4 @@ Contributions are welcome. Please open an issue or submit a pull request.
 
 All trademarks, logos, and brand names are the property of their respective owners. This project uses a custom icon and branding to avoid confusion with official Perplexity AI products.
 ```
-
-Questo README è conciso, professionale e copre tutti gli aspetti essenziali: installazione, build, features, disclaimer legale e roadmap futura. Perfetto per una repository GitHub.
 
