@@ -1,9 +1,9 @@
 {
-  "name": "perplexity-desktop",
+  "name": "p-ai-desktop",
   "version": "1.0.0",
   "description": "Unofficial Perplexity AI desktop client for Linux",
   "main": "main.js",
-  "homepage": "https://github.com/fconidi/perplexity-desktop",
+  "homepage": "https://github.com/fconidi/P-AI-Desktop",
   "author": "Franco Conidi aka edmond <fconidi@gmail.com>",
   "scripts": {
     "start": "electron .",
