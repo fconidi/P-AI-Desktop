@@ -1,0 +1,38 @@
+{
+  "name": "perplexity-desktop",
+  "version": "1.0.0",
+  "description": "Unofficial Perplexity AI desktop client for Linux",
+  "main": "main.js",
+  "homepage": "https://github.com/fconidi/perplexity-desktop",
+  "author": "Franco Conidi aka edmond <fconidi@gmail.com>",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --linux",
+    "build:deb": "electron-builder --linux deb",
+    "build:appimage": "electron-builder --linux AppImage"
+  },
+  "keywords": [
+    "perplexity",
+    "ai",
+    "search"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^39.2.7",
+    "electron-builder": "^26.0.12"
+  },
+  "build": {
+    "appId": "com.p-ai.desktop",
+    "productName": "P-AI Desktop",
+    "linux": {
+      "target": [
+        "deb",
+        "AppImage"
+      ],
+      "icon": "build/icon.png",
+      "category": "Network",
+      "maintainer": "Franco Conidi fconidi@gmail.com>"
+    }
+  },
+  "type": "commonjs"
+}
